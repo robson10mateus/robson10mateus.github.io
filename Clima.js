@@ -152,7 +152,7 @@ function exibirDados(cidade, pais, descricao, temperatura, umidade, vento, image
   caixa.classList.add('caixa-clima');
 
   var titulo = document.createElement('h2');
-  titulo.textContent = `Tempo atual em ${cidade}, ${pais}:`;
+  titulo.textContent = `Tempo atual em: ${cidade}, ${pais}:`;
   caixa.appendChild(titulo);
 
   var lista = document.createElement('ul');
