@@ -180,7 +180,7 @@ function exibirDados(cidade, pais, descricao, temperatura, umidade, vento, image
   resultado.appendChild(caixa);
 
   var itemImg = document.createElement('img');
-  itemImg.src = `../Novo site de clima/src/${imagem}.png`;
+  itemImg.src = `src/${imagem}.png`;
   caixa.appendChild(itemImg);
 }
 
@@ -198,15 +198,15 @@ function exibePrevisao(date, foto) {
     list.appendChild(data);
       
     var imgMin = document.createElement('li');
-    imgMin.innerHTML = `<img src="../Novo site de clima/src/temperatura-baixa.png">${temp_min[l]}`;
+    imgMin.innerHTML = `<img src="src/temperatura-baixa.png">${temp_min[l]}`;
     list.appendChild(imgMin);
     
     var imgMax = document.createElement('li');
-    imgMax.innerHTML = `<img src="../Novo site de clima/src/temperatura-alta.png">${temp_max[l]}`;
+    imgMax.innerHTML = `<img src="src/temperatura-alta.png">${temp_max[l]}`;
     list.appendChild(imgMax);
 
     var imgClima = document.createElement('li');
-    imgClima.innerHTML = `<img src="../Novo site de clima/src/${foto[l]}.png">`;
+    imgClima.innerHTML = `<img src="src/${foto[l]}.png">`;
     list.appendChild(imgClima);
 
     var clima = document.createElement('li');
