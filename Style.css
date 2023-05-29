@@ -160,4 +160,12 @@ li > img {
         margin: 10px auto;
         max-width: 500px;
     }  
+
+    form {
+        flex-direction: column;
+    }
+
+    #botao-pesquisar {
+        margin-top: 10px;
+    }
 }
